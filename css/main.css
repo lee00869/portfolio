@@ -1,0 +1,33 @@
+:root{
+    --bs-primary:#008080;
+    --bs--primary-rgb:0, 128, 128;
+    --bs-secondary:#2179BE;
+    --bs-secondary-rgb:33, 121, 190;
+    --bs-dark:rgb(10, 10, 10);
+    --bs-body-color: #4A4A4A;
+}
+
+/* Mobile Font Size */
+h1{
+    font-size: 2.25rem;
+    color: var(--bs-primary);
+}
+
+h2{
+    font-size: 1.5rem;
+    color: var(--bs-dark);
+}
+
+h3{
+    font-size: 1.125rem;
+    color: var(--bs-dark);
+}
+
+p{
+    font-size: 16px;
+}
+
+/* Main */
+.bg-primary{
+    background-color: var(--bs-primary) !important;
+}

@@ -17,12 +17,19 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
-            <div class="container-xl">
+            <div class="container-xxl">
                 <a class="navbar-brand col-sm-6" href="index.html">
-                    <img srcset="
-                    images/logo-6-60_x_60.png 600w,
-                    images/logo-6-100_x_100.png 1920w" sizes="(max-width: 600px) 600px,
-                  (max-width: 1920px) 1920px" src="images/logo-6-60_x_60.png" alt="che-cheng logo">
+                  <picture>
+                    <source srcset="images/logo-6-100_x_100.png"
+                            media="(min-width: 800px)" />
+                
+                    <source srcset="images/logo-6-80_x_80.png"
+                            media="(min-width: 600px)" />
+                
+                    <img class=""
+                         src="images/logo-6-80_x_80.png"
+                         alt="che-cheng lee logo">
+                </picture>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -35,30 +42,108 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item col-sm-3">
-                            <a class="nav-link" href="about">About</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item col-sm-3">
-                            <a class="nav-link" href="services">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item col-sm-3">
-                            <a class="nav-link" href="team">Resume</a>
+                            <a class="nav-link" href="resume.html">Resume</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
+
     </header>
     <main>
-        <div class="container-xl">
-        <section class="py-2 my-1">
-            <h1>Hi, I'm Che-Cheng.</h1>
-            <h3>I’m a UX designer based in Ottawa with ambition to design memorable and useful products. Passionate about photography, fishing, and workout. </h3>
-        </section>
-    </div>
+        <div class="container-xxl">
+            <section class="py-2 my-1">
+                <h1 class="fw-bold">Hi, I'm Che-Cheng.</h1>
+                <h3 class="fw-normal">I’m a UX designer based in Ottawa with ambition to design memorable and useful products. Passionate
+                    about photography, fishing, and workout. </h3>
+            </section>
+
+            <section class="row my-3">
+                <div class="col-xl-6">
+                    <div class="bg-primary my-2 p-3 bg-opacity-75 rounded-3">
+                      <picture>
+                        <source srcset="images/three-star-600_x_313.png"
+                                media="(min-width: 800px)" />
+                    
+                        <source srcset="images/three-star-350_x_182.png"
+                                media="(min-width: 600px)" />
+                    
+                        <img class="img-fluid rounded mx-auto d-block rounded-4"
+                             src="images/three-star-350_x_182.png"
+                             alt="three star media website">
+                    </picture>  
+                    </div>
+                    <h2 class="fw-bold">Three Star Media</h2>
+                    <p class="fw-normal">Used valid HTML and CSS to make a responsive website for Three Star Media and matched it with the given mock-up design.</p>
+                    <a href="https://lee00869.github.io/three-star-media/" class="btn btn-primary col-12" role="button">View Project</a>
+                </div>
+                <div class="col-xl-6">
+                    <div class="bg-secondary my-2 p-3 bg-opacity-75 rounded-3">
+                        
+                      <picture>
+                        <source srcset="images/pop-therapy-600_x_327.png"
+                                media="(min-width: 800px)" />
+                    
+                        <source srcset="images/pop-therapy-350_x_190.png"
+                                media="(min-width: 600px)" />
+                    
+                        <img class="img-fluid rounded mx-auto d-block rounded-4"
+                             src="images/pop-therapy-350_x_190.png"
+                             alt="pop therapy website">
+                    </picture>  
+                    </div>
+                    <h2 class="fw-bold">Pop Therapy</h2>
+                    <p class="fw-normal">Used WordPress to create and maintain a website with a theme for a small business including various posts and pages.</p>
+                    <a href="https://jasonlee.rf.gd/" class="btn btn-primary col-12" role="button">View Project</a>
+                </div>
+                <div class="col-xl-6">
+                    <div class="bg-secondary my-2 p-3 bg-opacity-75 rounded-3">
+                      <picture>
+                        <source srcset="images/fashion-600_x_312.png"
+                                media="(min-width: 800px)" />
+                    
+                        <source srcset="images/fashion-350_x_182.png"
+                                media="(min-width: 600px)" />
+                    
+                        <img class="img-fluid rounded mx-auto d-block rounded-4"
+                             src="images/fashion-350_x_182.png"
+                             alt="fashion website">
+                    </picture>  
+                    </div>
+                    <h2 class="fw-bold">Fashion</h2>
+                    <p class="fw-normal">Created a responsive website of 3 pages using HTML and CSS and followed accessibility guidelines using proper contrast and images.</p>
+                    <a href="https://lee00869.github.io/mtm6201-midterm/" class="btn btn-primary col-12" role="button">View Project</a>
+                </div>
+                <div class="col-xl-6">
+                    <div class="bg-secondary my-2 p-3 bg-opacity-75 rounded-3">
+                      <picture>
+                        <source srcset="images/drupal-600_x_313.png"
+                                media="(min-width: 800px)" />
+                    
+                        <source srcset="images/drupal-350_x_183.png"
+                                media="(min-width: 600px)" />
+                    
+                        <img class="img-fluid rounded-4 mx-auto d-block"
+                             src="images/drupal-350_x_183.png"
+                             alt="paws for change website">
+                    </picture>  
+                    </div>
+                    <h2 class="fw-bold">Paws For Change</h2>
+                    <p class="fw-normal">Used Drupal to create and maintain a website with a theme and a module for a campaign including various pages and articles. </p>
+                    <a href="http://drupal-jason.rf.gd" class="btn btn-primary col-12" role="button">View Project</a>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-    
+
     </footer>
 </body>
+
 </html>
