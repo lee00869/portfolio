@@ -18,8 +18,13 @@
 </head>
 
 <body>
+         <!-- Skip Links -->
+         <ul class="skip-links">
+            <li><a href="#nav">Skip to main nav</a></li>
+            <li><a href="#maincontent">Skip to main content</a></li>
+          </ul>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="light" id="nav">
             <div class="container-xxl">
                 <a class="navbar-brand col-sm-8" href="index.html">
                     <picture>
@@ -41,13 +46,13 @@
                             <a class="nav-link rounded-4 px-3 active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link rounded-4 px-3" href="about.html">About</a>
+                            <a class="nav-link rounded-4 px-3 fw-bold" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link rounded-4 px-3" href="contact.html">Contact</a>
+                            <a class="nav-link rounded-4 px-3 fw-bold" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link rounded-4 px-3" target="_blank" href="resume.html">Resume</a>
+                            <a class="nav-link rounded-4 px-3 fw-bold" target="_blank" href="resume.html">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -55,16 +60,16 @@
         </nav>
 
     </header>
-    <main>
+    <main id="maincontent">
         <div class="container-xxl">
             <section class="py-2 my-1">
-                <h1 class="fw-bold fs-1">Hi, I'm Che-Cheng.</h1>
+                <h1 class="fw-bold display-2"><strong>Hi, I'm Che-Cheng</strong></h1>
                 <h3 class="fw-normal fs-3">I’m a UX designer based in Ottawa with ambition to design memorable and useful
                     products. Passionate
                     about photography, fishing, and workout. </h3>
             </section>
 
-            <section class="row my-3">
+            <section class="row g-4 mt-1">
                 <!-- Three Star Media -->
                 <div class="col-xl-6">
                     <div class="bg-primary my-2 py-5 bg-opacity-75 rounded-3">
@@ -141,7 +146,9 @@
             </section>
         </div>
     </main>
-    <hr>
+    <div class="row justify-content-center mt-4">
+        <hr class="border border-body-color border-1 opacity-100 col-12 col-xl-6 ">
+    </div>
     <footer class="col-sm-6 offset-sm-3 d-flex justify-content-around my-3 py-2">
         <a class="btn p-2 col-sm-3" href="https://www.linkedin.com/in/jason-lee-3a7737289/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl " style="color: #2279be;"></i></a>
         <a class="btn p-2 col-sm-3" href="mailto:jasonlee21229@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl " style="color: #2279be;"></i></a>
