@@ -104,6 +104,11 @@ hr{
     margin: 0;
 }
 
+.hr-line{
+    margin-right: calc(0* var(--bs-gutter-x));
+    margin-left: calc(0* var(--bs-gutter-x));
+}
+
 /* iPad */
 @media screen and (min-width:500px) and (max-width: 1200px){
 
