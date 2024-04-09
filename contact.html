@@ -65,12 +65,12 @@
     <main id="maincontent" role="main">
         <div class="container-xxl">
             <div class="row">
-                <div class="col-12 py-2 my-1">
-                    <h1 class="fw-bold  display-2" role="heading" data-aos="fade-right">Contact Me</h1>
-                    <h3 class="fw-normal fs-3" data-aos="fade-right">Have any questions? I would love to hear from you. </h3>
+                <div class="col-12">
+                    <h1 class="fw-bold  display-2 mt-5" role="heading" data-aos="fade-right">Contact Me</h1>
+                    <h3 class="fw-normal fs-3 mt-4" data-aos="fade-right">Have any questions? I would love to hear from you. </h3>
                 </div>
             </div>
-            <div class="row g-5">
+            <div class="row g-5 mt-0">
                 <div class="col-12 col-xl-6">
                     <section>
                         <!-- Contact Form -->
@@ -108,13 +108,33 @@
                 <div id="carouselExampleSlidesOnly" class="carousel slide col-12 col-xl-6" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/bridge-650_x_360.jpeg" class="d-block w-100" alt="Vimy Memorial Bridge">
+                            <picture>
+                                <source srcset="images/bridge-650_x_360.jpeg" media="(min-width: 750px)" />
+    
+                                <source srcset="images/bridge-375_x_208.jpeg" media="(min-width: 500px)" />
+    
+                                <img class=" d-block w-100" src="images/bridge-375_x_208.jpeg"
+                                    alt="Vimy Memorial Bridge">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/people-650_x_360.jpeg" class="d-block w-100" alt="sculpture">
+                            <picture>
+
+                                <source srcset="images/people-650_x_360.jpeg" media="(min-width: 750px)" />
+    
+                                <source srcset="images/people-375_x_208.jpeg" media="(min-width: 500px)" />
+    
+                                <img class=" d-block w-100" src="images/people-375_x_208.jpeg"
+                                    alt="sculpture">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/castle-650_x_360.jpeg" class="d-block w-100" alt="castle">
+                            <picture>
+
+                                <source srcset="images/castle-650_x_360.jpeg" media="(min-width: 750px)" />
+    
+                                <source srcset="images/castle-375_x_208.jpeg" media="(min-width: 500px)" />
+    
+                                <img class=" d-block w-100" src="images/castle-375_x_208.jpeg"
+                                    alt="a beautiful castle">
                         </div>
                     </div>
                 </div>
