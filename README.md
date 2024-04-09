@@ -1,13 +1,13 @@
-# portfolio
+# Portfolio
+
 ## Challenge
-### It's really callenge to code it from the Hi-Fi that I designed. The padding, margin, and font-size that I used in Figma are way too large, so I need to find those are more suitable which took a while. I also changed the contact page design because it's way too small on iPad screen size. More than that, I changed the home page's images because I like the version that i use instead of Figma's and the logo size on mobile screen because it was too small. I also changed the about page's images, my potrait was way too large and the second image was too long for the desktop. 
+Crafting and coding the website from the Hi-Fi prototype I designed presented its challenges. The padding, margin, and font sizes I selected in Figma turned out to be excessively large, necessitating a search for more suitable options. Additionally, I revamped the contact page layout to better accommodate iPad screens, and replaced home page images with ones I preferred. Adjustments were made to the logo size for mobile screens and the proportions of images on the about page. Lastly, I opted for the Bootstrap hamburger menu over my custom design for practicality. These refinements aimed to enhance both aesthetics and usability.
 
-## What I have learned. 
-### It's a cool thing that we could design our own website and also can used that we have learned about UX design, Bootstrap, Illustration, and images. It's way easier to use Bootstrap to code it. You are my favourite Friday night teacher. I really learned a lot during your class. Hope you have a wonderful summer. 
+## What I have learned
+It's fascinating how we can design our own website while implementing what we've learned about UX design, Bootstrap, illustration, and responsive images. Utilizing Bootstrap for coding significantly streamlines the process. I'm delighted that you've found my teaching beneficial, especially during our Friday night classes. I'm thrilled to hear you've learned a lot. Wishing you a fantastic summer ahead!
 
-## libraries, plugins, fonts
-1. Bootstrap 
+## Libraries, Plugins, Fonts
+1. Bootstrap
 2. Animate on Scroll
-3. font-family: "Poppins", sans-serif;
-4. [title] https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
-
+3. Font-family: "Poppins", sans-serif;
+4. [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css)
