@@ -74,8 +74,8 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="fw-bold  display-2 mt-5" role="heading" data-aos="fade-right">Contact Me</h1>
-                    <h3 class="fw-normal fs-3 mt-4" data-aos="fade-right">Have any questions? I would love to hear from
-                        you. </h3>
+                    <h2 class="fw-normal fs-3 mt-4" data-aos="fade-right">Have any questions? I would love to hear from
+                        you. </h2>
                 </div>
             </div>
             <div class="row g-5 mt-0">
@@ -94,15 +94,15 @@
                                 <div class="col-sm-12 mb-2">
                                     <label for="exampleInputEmail1" class="form-label fs-5">Email</label>
                                     <input type="email" class="form-control rounded-0" id="exampleInputEmail1"
-                                        placeholder="Email" aria-describedby="emailHelp" required>
-
+                                        placeholder="Email" aria-describedby="email-description" required>
+                                    <div id="email-description" class="form-text d-none">Write your email here</div>
 
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label for="message" class="form-label fs-5">Message</label>
-                                    <textarea type="text" class="form-control rounded-0" col="30" rows="5"
+                                    <textarea class="form-control rounded-0" col="30" rows="5"
                                         placeholder="Write your message here." id="message" required></textarea>
                                 </div>
                             </div>
@@ -126,6 +126,7 @@
 
                                 <img class=" d-block w-100" src="images/bridge-375_x_208.jpeg"
                                     alt="Vimy Memorial Bridge">
+                            </picture>
                         </div>
                         <div class="carousel-item">
                             <picture>
@@ -137,6 +138,7 @@
                                 <source srcset="images/people-375_x_208.jpeg" media="(min-width: 500px)" />
 
                                 <img class=" d-block w-100" src="images/people-375_x_208.jpeg" alt="sculpture">
+                            </picture>
                         </div>
                         <div class="carousel-item">
                             <picture>
@@ -148,6 +150,7 @@
                                 <source srcset="images/castle-375_x_208.jpeg" media="(min-width: 500px)" />
 
                                 <img class=" d-block w-100" src="images/castle-375_x_208.jpeg" alt="a beautiful castle">
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -160,9 +163,9 @@
     </div>
     <!-- Footer -->
     <footer class="col-sm-6 offset-sm-3 d-flex justify-content-around my-3" role="contentinfo">
-        <a class="btn p-2 col-sm-3" href="https://www.linkedin.com/in/jason-lee-3a7737289/" target="_blank"><i
+        <a class="btn p-2 col-sm-3" href="https://www.linkedin.com/in/jason-lee-3a7737289/" target="_blank" aria-label="LinkedIn Profile"><i
                 class="fa-brands fa-linkedin fa-2xl " style="color: #2279be;"></i></a>
-        <a class="btn p-2 col-sm-3" href="mailto:jasonlee21229@gmail.com" target="_blank"><i
+        <a class="btn p-2 col-sm-3" href="mailto:jasonlee21229@gmail.com" target="_blank" aria-label="Send Email"><i
                 class="fa-solid fa-envelope fa-2xl " style="color: #2279be;"></i></a>
     </footer>
     <!-- Javascript -->
