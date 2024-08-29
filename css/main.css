@@ -155,15 +155,20 @@ hr {
         height: auto; /* Maintain aspect ratio */
         margin: 0 auto; /* Center the image horizontally */
     }
+
+    /* Test */
+    .des-btn{
+        display: none;
+    }
 }
 
 /* Desktop */
 @media screen and (min-width:1201px) {
 
     .container-xxl {
-        max-width: 1400px;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        max-width: 1440px;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
      /* Form */
@@ -182,6 +187,10 @@ hr {
         margin: 0 auto; /* Center the image horizontally */
     }
 
+    /* Test */
+    .des-btn{
+        display: none;
+    }
 }
 
 /* New */
@@ -240,6 +249,11 @@ hr {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(1); /* Invert the color of the icons to make them visible on the background */
+}
+
+/* website link */
+a{
+    text-decoration: none;
 }
 
 
