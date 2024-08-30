@@ -180,8 +180,8 @@ hr {
         --bs-gutter-x: 3rem;
     }
 
-    /* persona */
-    .carousel-item img {
+    /* persona user map */
+    .carousel-sm{
         max-width: 75%; /* Adjust the width of the images */
         height: auto; /* Maintain aspect ratio */
         margin: 0 auto; /* Center the image horizontally */
