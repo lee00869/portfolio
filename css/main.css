@@ -130,7 +130,7 @@ hr {
 }
 
 /* iPad */
-@media screen and (min-width:500px) and (max-width: 1200px) {
+@media screen and (min-width:450px) and (max-width: 1200px) {
 
     .col-sm-8 {
         width: 50%;
@@ -199,6 +199,13 @@ hr {
     }
     .project-card img{
         transition: 0.4s;
+    }
+
+    /* Test */
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns */
+        grid-gap: 1.5rem; /* Gap between projects */
     }
 }
 
