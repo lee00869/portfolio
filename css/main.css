@@ -282,6 +282,14 @@ a{
         width: 30%;
     }
 
+    /* other project */
+    .project-hover:hover{
+        transition: 0.4s;
+        filter: brightness(0.8);
+    }
+    .project-hover{
+        transition: 0.4s;
+    }
 }
 
 
