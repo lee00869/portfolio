@@ -9,6 +9,7 @@
     --bs-white: rgb(250, 250, 250);
     --bs-light-rgb: 74, 74, 74;
     --bs-body-color: #4A4A4A;
+    --btn-secondary-bg: #d6d6d6;
 }
 
 /* Skip Link */
@@ -35,6 +36,17 @@
     --bs-btn-active-border-color: var(--bs-primary);
     --bs-btn-disabled-bg: var(--bs-primary);
     --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-secondary {
+    --bs-btn-bg: var(--btn-secondary-bg); /* Use variable for background */
+    --bs-btn-border-color: var(--btn-secondary-bg); /* Keep it consistent */
+    --bs-btn-hover-bg: var(--btn-secondary-bg);;
+    --bs-btn-hover-border-color:var(--btn-secondary-bg);;
+    --bs-btn-active-bg: var(--btn-secondary-bg);;
+    --bs-btn-active-border-color: var(--btn-secondary-bg);;
+    --bs-btn-disabled-bg:var(--btn-secondary-bg);;
+    --bs-btn-disabled-border-color:var(--btn-secondary-bg);;
 }
 
 /* Mobile */
@@ -129,110 +141,7 @@ hr {
     --bs-gutter-x: 1.5rem;
 }
 
-/* iPad */
-@media screen and (min-width:450px) and (max-width: 1200px) {
-
-    .col-sm-8 {
-        width: 50%;
-    }
-
-    .container-xxl {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    /* Form */
-    .g-5 {
-        --bs-gutter-y: 2rem;
-    }
-
-    .g-5 {
-        --bs-gutter-x: 2rem;
-    }
-      /* persona */
-      .carousel-item img {
-        max-width: 75%; /* Adjust the width of the images */
-        height: auto; /* Maintain aspect ratio */
-        margin: 0 auto; /* Center the image horizontally */
-    }
-
-    /* Test */
-    .des-btn{
-        display: none;
-    }
-}
-
-/* Desktop */
-@media screen and (min-width:1201px) {
-
-    .container-xxl {
-        max-width: 1440px;
-        padding-left: 8rem;
-        padding-right: 8rem;
-    }
-
-     /* Form */
-     .g-5 {
-        --bs-gutter-y: 3rem;
-    }
-
-    .g-5 {
-        --bs-gutter-x: 3rem;
-    }
-
-    /* persona user map */
-    .carousel-sm{
-        max-width: 75%; /* Adjust the width of the images */
-        height: auto; /* Maintain aspect ratio */
-        margin: 0 auto; /* Center the image horizontally */
-    }
-
-    /* Test */
-    .des-btn{
-        display: none;
-    }
-
-    /* Home cards */
-    .project-card:hover img{
-        transition: 0.4s;
-        filter: brightness(0.8);
-    }
-    .project-card img{
-        transition: 0.4s;
-    }
-
-    /* Test */
-    .project-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Two columns */
-        grid-gap: 1.5rem; /* Gap between projects */
-    }
-}
-
-/* New */
-/* .desktop{
-    width: 100%;
-    height: 15.82rem;
-    overflow: scroll;
-    overflow-x: hidden;
-} */
-
-/* .desktop::-webkit-scrollbar {
-    width: 0; /* Set the scrollbar width for vertical scroll */
-
-
-/* .desktop::-webkit-scrollbar-thumb {
-    background-color: #888; /* Scrollbar thumb color */
- */
-
-/* .desktop::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Darken scrollbar thumb on hover */
- */
-
-
-/* .ipad{
-    width: fit-content;
-} */ */
+/* Others */
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: #4A4A4A;
@@ -281,6 +190,100 @@ a{
 .view-flex{
     display: flex;
 }
+
+
+
+/* iPad */
+@media screen and (min-width:450px) and (max-width: 1200px) {
+
+    /* .col-sm-8 {
+        width: 50%;
+    } */
+
+    .container-xxl {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    /* Form */
+    .g-5 {
+        --bs-gutter-y: 2rem;
+    }
+
+    .g-5 {
+        --bs-gutter-x: 2rem;
+    }
+      /* persona */
+      .carousel-item img {
+        max-width: 75%; /* Adjust the width of the images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    /* Test */
+    .des-btn{
+        display: none;
+    }
+
+    .view-width{
+        width: 30%;
+    }
+
+  
+}
+
+/* Desktop */
+@media screen and (min-width:1201px) {
+
+    .container-xxl {
+        max-width: 1440px;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+     /* Form */
+     .g-5 {
+        --bs-gutter-y: 3rem;
+    }
+
+    .g-5 {
+        --bs-gutter-x: 3rem;
+    }
+
+    /* persona user map */
+    .carousel-sm{
+        max-width: 75%; /* Adjust the width of the images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    /* Test */
+    .des-btn{
+        display: none;
+    }
+
+    /* Home cards */
+    .project-card:hover img{
+        transition: 0.4s;
+        filter: brightness(0.8);
+    }
+    .project-card img{
+        transition: 0.4s;
+    }
+
+    /* Test */
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns */
+        grid-gap: 1.5rem; /* Gap between projects */
+    }
+
+    .view-width{
+        width: 30%;
+    }
+
+}
+
 
 
 /* Test */
