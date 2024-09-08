@@ -152,9 +152,15 @@ hr {
     position: fixed;
     bottom: 2.5rem;
     right: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+    padding: auto;
     display: none;
     z-index: 100;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* persona */
