@@ -197,6 +197,11 @@ a{
     display: flex;
 }
 
+/* Illustrator */
+.click-view{
+    color: var(--bs-body-color);
+}
+
 
 
 /* iPad */
