@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Main Css -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sushikan.css">
     <!-- CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Font Awesome -->
@@ -38,9 +38,11 @@
             <div class="container-xxl">
                 <a class="navbar-brand col-sm-7" href="index.html">
                     <picture>
-                        <source srcset="images/logo-6-100_x_100.png" media="(min-width: 750px)" />
-                        <source srcset="images/logo-6-80_x_80.png" media="(min-width: 450px)" />
-                        <img src="images/logo-6-80_x_80.png" alt="che-cheng lee logo">
+                        <source srcset="images/icon-60x60.png" media="(min-width: 750px)" />
+
+                        <source srcset="images/icon-60x60.png" media="(min-width: 500px)" />
+
+                        <img class="" src="images/icon-60x60.png" alt="che-cheng lee logo">
                     </picture>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,16 +53,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-between">
                         <li class="nav-item">
-                            <a class="nav-link rounded-4 px-3 fw-bold" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link unactive fw-bold" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link rounded-4 px-3 fw-bold" href="about.html">About</a>
+                            <a class="nav-link unactive fw-bold" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link rounded-4 px-3 fw-bold" href="contact.html">Contact</a>
+                            <a class="nav-link unactive fw-bold" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link rounded-4 px-3 fw-bold" target="_blank"
+                            <a class="nav-link unactive fw-bold" target="_blank"
                                 href="lee_che-cheng_resume-portfolio.pdf">Resume</a>
                         </li>
                     </ul>
@@ -78,7 +80,7 @@
 
             <section class="row g-5 d-flex align-items-center mt-0">
                 <div class="col-12 col-sm-6">
-                    <h1 class="fw-bold display-2">Sushi Kan</h1>
+                    <h1 class="fw-bold display-3">Sushi Kan</h1>
                     <h2 class="fw-normal fs-3 mt-4">A Japanese sushi restaurant in Ottawa.</h2>
                 </div>
                 <div class="col-12 col-sm-6 mx-auto">
@@ -89,22 +91,45 @@
 
                         <img class="img-fluid" src="images/sushikan_mockup-525_x_525.png" alt="sushi kan mockup">
                     </picture>
-                    
+
                 </div>
             </section>
 
             <section class="row g-5 d-flex align-items-start mt-0">
-                <div class="col-12 col-lg-6">
+                <!-- <div class="col-12 col-lg-6">
                     <h2 class="fw-semibold fs-4 lh-base mb-0">Sushi Kan serves fresh, authentic Japanese food. They specialize in sushi and sashimi. Enjoy great service and a comfortable vibe for a
                         memorable meal.</h2>
                 </div>
                 <div class="col-12 col-lg-6">
                     <h3 class="fw-normal fs-5 lh-base mb-0">Sushi Kan prioritize quality and authenticity. Every dish
                         is carefully prepared to showcase the art of Japanese cooking.</h3>
+                </div> -->
+
+                <!-- new -->
+                <div class="col-12 col-lg-6">
+                    <h2 class="fw-bold fs-2 mb-2" role="heading">Project Vision</h2>
+                    <p class="fw-normal fs-6 mb-0">Sushi Kan serves fresh, authentic Japanese food, specializing in
+                        sushi and sashimi. In this project, I redesigned the "Our Story," Location, Menu, and Footer
+                        sections to ensure the website reflects Sushi Kan’s identity and its delicious offerings.
+                    </p>
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="fw-bold fs-2" role="heading">Problem</h2>
+                    <ul class="mb-0">
+                        <li class="fw-normal fs-6">The colour contrast of the orange is too low.</li>
+                        <li class="fw-normal fs-6">The navbar and buttons don't have hover effects.</li>
+                        <li class="fw-normal fs-6">The menu is not visible.</li>
+                        <li class="fw-normal fs-6">Some images use too much space.</li>
+                        <li class="fw-normal fs-6">There are two sections almost repeated.</li>
+                        <li class="fw-normal fs-6">Doesn't have any social media link.</li>
+                        <li class="fw-normal fs-6"><a class="fw-normal fs-6" target="_blank"
+                                href="sushikan.pdf">View Original Website</a></li>
+                    </ul>
                 </div>
 
                 <!-- Problem/Solution -->
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <h1 class="fw-bold fs-1">Redesign Sushi Kan Website</h1>
                 </div>
                 <div class="col-12 col-lg-6 mt-3">
@@ -129,43 +154,43 @@
                         <li class="fw-normal fs-5">Reduce some images and repeated sections.</li>
                         <li class="fw-normal fs-5">Add social media links to improve SEO and business needs.</li>
                     </ul>
-                </div>
+                </div> -->
 
                 <!-- My Role / Tools / Project Duration / Responsibilities -->
                 <div class="col-6 col-lg-3">
                     <h1 class="fw-bold fs-3">My Role</h1>
                     <ul class="mb-0">
-                        <li class="fw-normal fs-5">Sole UI/UX Designer</li>
+                        <li class="fw-normal fs-6">Sole UI/UX Designer</li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3">
                     <h1 class="fw-bold fs-3">Tools</h1>
                     <ul class="mb-0">
-                        <li class="fw-normal fs-5">Figma</li>
-                        <li class="fw-normal fs-5">FigJam</li>
-                        <li class="fw-normal fs-5">Adobe Illustrator</li>
+                        <li class="fw-normal fs-6">Figma</li>
+                        <li class="fw-normal fs-6">FigJam</li>
+                        <li class="fw-normal fs-6">Adobe Illustrator</li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3">
                     <h1 class="fw-bold fs-3">Duration</h1>
                     <ul class="mb-0">
-                        <li class="fw-normal fs-5">May 2024 - Jun 2024</li>
+                        <li class="fw-normal fs-6">May 2024 - Jun 2024</li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3">
                     <h1 class="fw-bold fs-3">Duty</h1>
                     <ul class="mb-0">
-                        <li class="fw-normal fs-5">Wireframing</li>
-                        <li class="fw-normal fs-5">Prototyping</li>
-                        <li class="fw-normal fs-5">Visual design</li>
+                        <li class="fw-normal fs-6">Wireframing</li>
+                        <li class="fw-normal fs-6">Prototyping</li>
+                        <li class="fw-normal fs-6">Visual design</li>
                     </ul>
                 </div>
 
                 <!-- Competitive -->
-                 <div class="col-12">
-                    <h1 class="fw-bold fs-1">Competitive analysis</h1>
+                <div class="col-12">
+                    <h1 class="fw-bold display-5 text-uppercase mb-0">Competitive analysis</h1>
                 </div>
-                <div class="col-12 col-lg-6 mt-3">
+                <!-- <div class="col-12 col-lg-6 mt-3">
                     <h2 class="fw-bold fs-2">Sushi 88</h2>
                     <ul class="mb-0">
                         <li class="fw-normal fs-5">Competitor type: Direct</li>
@@ -204,23 +229,51 @@
                         <li class="fw-normal fs-5">Weaknesses: Many Contrast Errors, Pink colour is too bright</li>
                         <li class="fw-normal fs-5">Unique Feature: Accessibility, Subscribe section</li>
                     </ul>
+                </div> -->
+                <div class="col-12 col-sm-8 mt-3">
+                    <p class="fw-normal fs-6 ">I evaluated several competitors that, while not direct rivals to Sushi
+                        Kan, still affect its revenue and visibility. Enhancing the website experience with intuitive
+                        features will help Sushi Kan differentiate itself and attract more visitors.</p>
+                    <p class="fw-normal fs-6" role="heading">The majority of features across competitors were similar,
+                        but key differences included:</p>
+                    <ul class="mb-0">
+                        <li class="fw-normal fs-6">Accessibility: Easily Accessible vs. Hardly Accessible</li>
+                        <li class="fw-normal fs-6">User Flow: Multiple Screens vs. Simplified Interaction</li>
+                        <li class="fw-normal fs-6">Design Aesthetic: Bright/Distracting Interface vs. Minimalistic
+                            Interface</li>
+                        <li class="fw-normal fs-6">Product Focus: General Selection vs. Specialization of Products</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4  mt-3">
+                    <h1 class="fw-bold display-4 text-uppercase mb-2"></h1>
+                    <picture>
+                        <source srcset="images/sushikan-compet-logos.png" media="(min-width: 750px)" />
+
+                        <source srcset="images/sushikan-compet-logos.png" media="(min-width: 450px)" />
+
+                        <img class="img-fluid" src="images/sushikan-compet-logos.png" alt="Sushi Kan competitors">
+                    </picture>
                 </div>
 
                 <!-- Design -->
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <h1 class="fw-bold fs-1">Design</h1>
+                </div> -->
+                <div class="col-12">
+                    <h1 class="fw-bold display-5 text-uppercase mb-0">Design</h1>
                 </div>
 
                 <!-- Low Fidelity Wireframe -->
-                <div class="col-12 col-lg-6 mt-4">
+                <div class="col-12 col-lg-6 mt-3">
                     <picture>
                         <source srcset="images/lofi-sushikan-1000_x_1920.png" media="(min-width: 750px)" />
 
                         <source srcset="images/lofi-sushikan-800_x_1536.png" media="(min-width: 450px)" />
 
-                        <img class="img-fluid rounded-3" src="images/lofi-sushikan-800_x_1536.png" alt="sushi kan Low fidelity wireframe">
+                        <img class="img-fluid rounded-3" src="images/lofi-sushikan-800_x_1536.png"
+                            alt="sushi kan Low fidelity wireframe">
                     </picture>
-                  
+
                 </div>
                 <div class="col-12 col-lg-6 my-lg-auto">
                     <h2 class="fw-bold fs-2 text-start">Wireframes</h2>
@@ -230,7 +283,7 @@
                 </div>
 
                 <!-- Style -->
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <h2 class="fw-bold fs-2 text-start">Style</h2>
                     <div class="col-12 mx-auto mt-4">
                         <picture>
@@ -242,6 +295,24 @@
                         </picture>
                         
                     </div>
+                </div> -->
+                <!-- style-->
+                <div class="col-12 col-lg-6 my-lg-auto ">
+                    <h2 class="fw-bold fs-2 text-start" role="heading">Style</h2>
+                    <p class="fw-normal fs-6 mb-0">To ensure a consistent visual style, I developed the design system
+                        starting with the wordmark, focusing on a clean and welcoming feel. I maintained this style
+                        across desktop and mobile screens to keep the experience intuitive and user-friendly. The
+                        primary color palette remains white, black, and gray, with the addition of orange for better
+                        readability and a stylish touch. </p>
+                </div>
+                <div class="col-12 mx-auto col-lg-6">
+                    <picture>
+                        <source srcset="images/sushi-style.png" media="(min-width: 750px)" />
+
+                        <source srcset="images/sushi-style-sm.png" media="(min-width: 450px)" />
+
+                        <img class="img-fluid rounded-3" src="images/sushi-style-sm.png" alt="Sushi Kan style guide">
+                    </picture>
                 </div>
 
                 <!-- High Fidelity Design -->
@@ -257,14 +328,15 @@
 
                         <source srcset="images/hifi-sushikan-800_x_1549.png" media="(min-width: 450px)" />
 
-                        <img class="img-fluid rounded-3" src="images/hifi-sushikan-800_x_1549.png" alt="sushi kan high fidelity wireframe">
+                        <img class="img-fluid rounded-3" src="images/hifi-sushikan-800_x_1549.png"
+                            alt="sushi kan high fidelity wireframe">
                     </picture>
                 </div>
             </section>
-             <!-- Other project -->
+            <!-- Other project -->
             <section class="row g-4 mt-0">
                 <div class="col-12 mt-5">
-                    <h1 class="fw-bold fs-3 my-auto" role="heading">View other projects</h1>
+                    <h2 class="fw-bold fs-3 my-auto" role="heading">View other projects</h2>
                 </div>
 
                 <div class="col-12 col-md-4 project-hover">
@@ -274,7 +346,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-4 project-hover">
-                    <a href="a5.html.html" class="btn btn-secondary p-0 border-0 fw-medium view-other" role="button">
+                    <a href="a5.html" class="btn btn-secondary p-0 border-0 fw-medium view-other" role="button">
                         <img class="rounded-start" src="images/a5-home-icon.png" alt="a cafe in California icon">
                         <h2 class="fw-bold fs-6 my-auto ms-3 me-auto" role="heading">Arlington Five</h2>
                     </a>
@@ -292,13 +364,13 @@
                         <h2 class="fw-bold fs-6 my-auto ms-3 me-auto" role="heading">Sushi Kan</h2>
                     </a>
                 </div> -->
-                <div class="col-12 col-md-4 project-hover">
+                <!-- <div class="col-12 col-md-4 project-hover">
                     <a href="https://jasonlee.rf.gd/" target="_blank"
                         class="btn btn-secondary p-0 border-0 fw-medium view-other" role="button">
                         <img class="rounded-start" src="images/pop-icon.png" alt="pop therapy icon">
                         <h2 class="fw-bold fs-6 my-auto ms-3 me-auto" role="heading">Pop Therapy</h2>
                     </a>
-                </div>
+                </div> -->
                 <!-- <div class="col-12 col-md-4 project-hover">
                     <a href="https://lee00869.github.io/mtm6201-midterm/" target="_blank"
                         class="btn btn-secondary p-0 border-0 fw-medium view-other" role="button">
@@ -306,28 +378,28 @@
                         <h2 class="fw-bold fs-6 my-auto ms-3 me-auto" role="heading">Fashion</h2>
                     </a>
                 </div> -->
-                <div class="col-12 col-md-4 project-hover">
+                <!-- <div class="col-12 col-md-4 project-hover">
                     <a href="illustrator.html" class="btn btn-secondary p-0 border-0 fw-medium view-other"
                         role="button">
                         <img class="rounded-start" src="images/dog-home-icon.png" alt="illustration icon">
                         <h2 class="fw-bold fs-6 my-auto ms-3 me-auto" role="heading">Illlustration</h2>
                     </a>
-                </div>
+                </div> -->
             </section>
 
         </div>
     </main>
 
     <div class="row justify-content-center mt-5 hr-line">
-        <hr class="border border-body-color border-1 opacity-100 col-12 col-xl-6">
+        <hr class="border border-primary border-1 opacity-80 col-12 col-xl-6 ">
     </div>
 
     <!-- Footer -->
     <footer class="col-sm-6 offset-sm-3 d-flex justify-content-around my-3">
         <a class="btn p-2 col-sm-3" href="https://www.linkedin.com/in/che-cheng-lee-3a7737289/" target="_blank"
-            aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin fa-2xl" style="color: #2279be;"></i></a>
+            aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin fa-2xl" style="color: #104136;"></i></a>
         <a class="btn p-2 col-sm-3" href="mailto:jasonlee21229@gmail.com" target="_blank" aria-label="Send Email"><i
-                class="fa-solid fa-envelope fa-2xl" style="color: #2279be;"></i></a>
+                class="fa-solid fa-envelope fa-2xl" style="color: #104136;"></i></a>
     </footer>
 
     <!-- Javascript -->

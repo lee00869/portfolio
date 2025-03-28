@@ -1,0 +1,335 @@
+:root,
+[data-bs-theme=light] {
+    --bs-primary: #151515;
+    --bs-primary-rgb: 21, 21, 21;
+    --bs-secondary: #333333;
+    --bs-secondary-rgb: 51, 51, 51;
+    --bs-dark: rgb(10, 10, 10);
+    --bs-dark-rgb: 10, 10, 10;
+    --bs-white: rgb(250, 250, 250);
+    --bs-light-rgb: 74, 74, 74;
+    --bs-body-color: #4A4A4A;
+    --btn-secondary-bg: #d6d6d6;
+    --bs-green: #0F3B3A;
+    --bs-second-green: #577531;
+    --bs-orange: #E69931;
+    --bs-light-orange: #FDF6EE;
+    --bs-dark-green: #104136;
+}
+
+/* Skip Link */
+.skip-links {
+    list-style: none;
+}
+
+.skip-links li a {
+    position: absolute;
+    top: -10em;
+}
+
+.skip-links li a:focus {
+    top: 0;
+}
+
+/* Button */
+.btn-primary {
+    --bs-btn-bg: var(--bs-body-color);
+    --bs-btn-border-color: var( --bs-body-color);
+    --bs-btn-hover-bg: var(--bs-dark-green);
+    --bs-btn-hover-border-color: var(--bs-dark-green);
+    --bs-btn-active-bg: var(--bs-dark-green);
+    --bs-btn-active-border-color: var(--bs-dark-green);
+    --bs-btn-disabled-bg: var(--bs-body-color);
+    --bs-btn-disabled-border-color: var(--bs-body-color);
+}
+
+.btn-secondary {
+    --bs-btn-bg: var(--btn-secondary-bg); /* Use variable for background */
+    --bs-btn-border-color: var(--btn-secondary-bg); /* Keep it consistent */
+    --bs-btn-hover-bg: var(--btn-secondary-bg);;
+    --bs-btn-hover-border-color:var(--btn-secondary-bg);;
+    --bs-btn-active-bg: var(--btn-secondary-bg);;
+    --bs-btn-active-border-color: var(--btn-secondary-bg);;
+    --bs-btn-disabled-bg:var(--btn-secondary-bg);;
+    --bs-btn-disabled-border-color:var(--btn-secondary-bg);;
+}
+
+/* Mobile */
+body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: #FAEED6; */
+}
+
+h1 {
+    color: var(--bs-primary);
+}
+
+h2 {
+    color: var(--bs-secondary);
+}
+
+h3 {
+    color: var(--bs-secondary);
+}
+
+p {
+    color: var(--bs-body-color);
+}
+
+/* Nav */
+.nav-link {
+    color: var(--bs-body-color);
+    text-transform: uppercase;
+}
+
+.nav-link {
+    transition: color .4s ease-in-out, background-color .4s ease-in-out, border-color .4s ease-in-out;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .nav-link:focus:hover {
+    /* background-color: var(--bs-primary);
+    color: var(--bs-white); */
+    color: var(--bs-primary);
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+    /* background-color: var(--bs-secondary); */
+    /* color: var(--bs-white); */
+    color: var(--bs-body-color);
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+.unactive{
+    opacity: 70%;
+}
+
+.navbar-toggler {
+    color: var(--bs-dark-green);
+    border: 0;
+}
+
+
+
+.btn {
+    transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.container-xxl {
+    --bs-gutter-x: 3rem;
+}
+
+span {
+    height: 1px;
+    width: 100%;
+    color: var(--bs-body-color);
+}
+
+hr {
+    margin: 0;
+}
+
+.hr-line {
+    margin-right: calc(0* var(--bs-gutter-x));
+    margin-left: calc(0* var(--bs-gutter-x));
+}
+
+/* Form */
+.g-5 {
+    --bs-gutter-y: 1.5rem;
+}
+
+.g-5 {
+    --bs-gutter-x: 1.5rem;
+}
+
+/* Others */
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #4A4A4A;
+    opacity: 0.7;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.5s;
+}
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* back to top */
+#back-to-top {
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+    padding: auto;
+    display: none;
+    z-index: 100;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* persona */
+.carousel-item {
+    text-align: center; /* Center align the content inside the carousel item */
+}
+
+.carousel-control-prev, .carousel-control-next {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.carousel-control-next{
+    justify-content: flex-end;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1); /* Invert the color of the icons to make them visible on the background */
+}
+
+/* website link */
+a{
+    text-decoration: none;
+}
+
+/* Other projects */
+.view-other{
+    max-width: 100%;
+    display: flex;
+}
+
+.view-flex{
+    display: flex;
+}
+
+/* Illustrator */
+.click-view{
+    color: var(--bs-body-color);
+}
+
+/* card color */
+.card{
+    /* background-color: #FAEED6; */
+}
+
+/* footer line */
+.border{
+    color: var(--bs-body-color);
+}
+
+
+/* iPad */
+@media screen and (min-width:450px) and (max-width: 1200px) {
+
+    /* .col-sm-8 {
+        width: 50%;
+    } */
+
+    .container-xxl {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    /* Form */
+    .g-5 {
+        --bs-gutter-y: 2rem;
+    }
+
+    .g-5 {
+        --bs-gutter-x: 2rem;
+    }
+      /* persona */
+      .carousel-item img {
+        max-width: 75%; /* Adjust the width of the images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    /* Test */
+    .des-btn{
+        display: none;
+    }
+
+    .view-width{
+        width: 30%;
+    }
+
+  
+}
+
+/* Desktop */
+@media screen and (min-width:1201px) {
+
+    .container-xxl {
+        max-width: 1440px;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+     /* Form */
+     .g-5 {
+        --bs-gutter-y: 4.5rem;
+    }
+
+    .g-5 {
+        --bs-gutter-x: 3rem;
+    }
+
+    /* font */
+    .fs-6{
+        font-size: 18px !important;
+    }
+
+    /* persona user map */
+    .carousel-sm{
+        max-width: 75%; /* Adjust the width of the images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    /* Test */
+    .des-btn{
+        display: none;
+    }
+
+    /* Home cards */
+    .project-card:hover img{
+        transition: 0.4s;
+        filter: brightness(0.8);
+    }
+    .project-card img{
+        transition: 0.4s;
+    }
+
+    /* Test */
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns */
+        grid-gap: 1.5rem; /* Gap between projects */
+    }
+
+    .view-width{
+        width: 30%;
+    }
+
+    /* other project */
+    .project-hover:hover{
+        transition: 0.4s;
+        filter: brightness(0.8);
+    }
+    .project-hover{
+        transition: 0.4s;
+    }
+}
+
+
