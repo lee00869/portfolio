@@ -54,6 +54,11 @@
     --bs-btn-disabled-border-color:var(--btn-secondary-bg);;
 }
 
+.border-primary {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-body-color), var(--bs-border-opacity)) !important;
+}
+
 /* Mobile */
 body {
     font-family: "Poppins", sans-serif;
