@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-    color: var(--bs-green);
+    color: var(--bs-body-color);
 }
 
 h3 {
